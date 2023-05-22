@@ -1,7 +1,7 @@
 {
   "title": [
     {
-      "pattern": " xxx",
+      "pattern": "[^`]xxx",
       "message": "Put backticks around @keyword so it does not reference into GitHub user."
     }
   ]
