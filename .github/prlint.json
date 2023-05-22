@@ -1,8 +1,8 @@
 {
   "title": [
     {
-      "pattern": "(?<=`)@",
-      "message": "Put backticks around @keyword so it does not reference into GitHub user."
+      "pattern": "((?<=`)@\\S+`)|(^[^@]*$)",
+      "message": "Put backticks around @keyword so it does not reference a GitHub user."
     }
   ]
 }
